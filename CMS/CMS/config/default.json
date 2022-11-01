@@ -1,0 +1,25 @@
+{
+  "productName": "HRMS",
+  "pageSize": 25,
+  "port": "3133",
+  
+  "database": {
+    "host": "localhost",
+    "database": "cms",
+    "user": "root",
+    "password": ""
+  },
+  "jwtConfig": {
+    "jwtKey": "my_secret_key",
+    "jwtExpirySeconds": "8h",
+    "refreshTokenExpiry": "24h",
+    "algorithm": "HS256"
+  },
+  "cloudinaryConfig": {
+    "cloud_name": "dsggyjuwb",
+    "api_key": "568456869998838",
+    "api_secret": "jMLNKumibVUo_vP-rRQMjEa0PXs",
+    "secure": true
+  }
+  
+}
